@@ -1,0 +1,40 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid yellow;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: auto;
+    box-shadow: 4px 4px 4px red;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(151, 103, 103);
+    border: 5px solid green;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 3px dotted red;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2 solid coral;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+.praent1 p{
+    color: rgb(114, 167, 8);
+
+}

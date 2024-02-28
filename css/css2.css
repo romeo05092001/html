@@ -1,0 +1,21 @@
+.parent{
+    width: 300px;
+    height: 400px;
+    border:5px dotted yellow;
+    position: relative;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    
+}
+.ol{
+    list-style-type: lower-alpha;
+    list-style: inside;
+    list-style:image-set("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAACUCAMAAADF0xngAAAAY1BMVEX///8AAACzs7P8/PwEBAT39/fs7Ozz8/PIyMiHh4fm5ua/v7/p6elbW1stLS15eXlWVlZhYWHT09MQEBBPT0+dnZ01NTUeHh48PDyBgYGUlJSnp6fe3t4kJCRwcHBISEgXFxdYs3q8AAAEMUlEQVR4nO2b2XaCMBCGM4RVVBTEhUV8/6dshqUiuxxMcjFfe3q6iPmZySxJKGMEQRAEQRAEQRAEQRDEG46fbmCp1jEDFx/Pa6ZaxjQokr/AUK1jHh/gia7XGw8gt1WLmIazXQEAru7G9G+ALtcbSzgc4K65y/cHVBlpHuW+iSrhofe8TKCUWexUC5nCOpamhJfLmL5xnkFlSwhUK5kigBqMcl1taRWVRmFPX7WWYbDTcF9gmpXMRFtT8gSg7XI92Z9rdzdRriGchddGoyDRNHxqh9c6T3vVeoZxztCyJWjq8gw+SFTrGYKz5FNl4aiWNEj+qTLS0uU76OCpVjRE/CFRRNFJQ5eXEf7p8pBplzMxpXeMGXPdVPI06qk8a+dy+9nO6BVHVzdbCoebXZWQzqnkW97FgrdKoG9Lye3bzpgjGBIpfJ7OXJeG26nMDn0BHcy+vxex5f4CxsaURJyTa1Tet1weiXnpX8fHKhUOi5y0cOQ5m0YPF434oVGyzrW9O4OrIUJ8Y5Vsl5gztvlO5HnrAlpVOu5e6ym4hczEQkNuqrJ+v/3ztTqYPyn8/5vfHie9VfNyldL3RUH229IZ3usBV+hsckEU/7y6295tjR1bHDasNyOICepf12YjvGrjJDmiUgRSdlgn0yyTpLVtJzSiUnyx4rVeP+82btcm8S9fR5B4cR7L7N6xEk33H0May95CXu9ejWQcv5idmH8Ch21atxfoFKOF811ni5uxeUmc14ij2fG8uIb7rrlWPhhEs87GsEmUPiWR9XY0+irFlPQVL3jDBcbEk2ipYdOBMzuaFWniulxiLh/AXWLLM1O8yeEtUZmXsaNOp31aohKkFp0+/rxI5KF0VvJkWZG8KD3VtxdkdbyPo9IjXnc2D9V4KmvPY6FIuOxVzUvOrCUOr1B4+BMu7TBNeKgL8hgWN8KmIomcOb2UjpKLSwQDi6LfL8JHcPOuStGSx44V4kMm3f0kZS7vnekBnMoosR/dmWDCRdGDHHa/Aw72VYdmGXlXZ64kynm/AcbN3fJPvGriWzLFt0oWFfzt8FpN8PFstZV09j/OdnWZZC5tS4HZLYK8c2BwdFWoDJsaXkbzvbMA4/39j1iywJJ3hJvwCuyulfBHnub/LxFRbslforVP7fMU9yQ/NZTnGsw9/csEkPs/AWWyyY7vGReOGok7j2ZaoMvltuzCUHGTZ27e+DIWf2vcG2vepYrEoZxnvZVfGBYbC91qQykMamPm0mt5VqeZE062MYfX50ROE2ix3ETEmVHGwy1mEyLfx1nupZXYJYGFuozwYkFtru7A9swyzH6srDPyHkU+vkgtFqZOM/2dph7CjWm1ufsN2H88JXYcQuWhPDheXkvwlZYXRVJdnl2TNQ+kG3J3D5yvbVLdUab1/1cQBEEQBEEQBEEQBEEQBEEQxAR/A0gmWcfxtsoAAAAASUVORK5CYII=");
+}
